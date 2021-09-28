@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Vue App</title>
+    <script src="https://unpkg.com/vue@next"></script>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Vocab</h1>
+        <ol>
+            <li v-for="item in vocab" @click="showVocab(item)">{{ item.simplified }}</li>
+        </ol>
+
+        <div class="details" v-show="showDetails">
+            <h1>{{selectedVocab.simplified}}</h1>
+            <h1>{{selectedVocab.traditional}}</h1>
+            <p class="pinyin">{{selectedVocab.pinyin}}</p>
+            <p class="translations">{{selectedVocab.translations}}</p>
+            <p class="wiktionary"><a :href="selectedVocab.wiktionary">Look it up on Wiktionary</a></p>
+        </div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>

@@ -1,0 +1,44 @@
+[
+    {
+        "simple": "爱 ",
+        "traditional": "愛",
+        "pinyin": "ài",
+        "translation": {"german": "lieben; die Liebe"},
+        "wiktionary": "https://en.wiktionary.org/wiki/%E6%84%9B#Chinese"
+    },
+    {
+        "simple": "八 ",
+        "traditional": "八 ",
+        "pinyin": "bā",
+        "translation": {"german": "acht"},
+        "wiktionary": "https://en.wiktionary.org/wiki/%E5%85%AB#Chinese"
+    },
+    {
+        "simple": "爸爸 ",
+        "traditional": "爸爸 ",
+        "pinyin": "bàba",
+        "translation": {"german": "Papa"},
+        "wiktionary": "https://en.wiktionary.org/wiki/%E7%88%B8%E7%88%B8#Chinese"
+    },
+    {
+        "simple": "杯子 ",
+        "traditional": "杯子 ",
+        "pinyin": "bēizi",
+        "translation": {"german": "Tasse"},
+        "wiktionary": "https://en.wiktionary.org/wiki/%E6%9D%AF%E5%AD%90#Chinese"
+    },
+    {
+        "simple": "北京",
+        "traditional": "北京",
+        "pinyin": "Běijīng",
+        "translation": {"german": "Peking"},
+        "wiktionary": "https://en.wiktionary.org/wiki/%E5%8C%97%E4%BA%AC#Chinese"
+    },
+    {
+        "simple": "本 ",
+        "traditional": "本 ",
+        "pinyin": "běn",
+        "translation": {"german": "Zählwort für Bücher"},
+        "wiktionary": "https://en.wiktionary.org/wiki/%E6%9C%AC#Chinese"
+    }
+]

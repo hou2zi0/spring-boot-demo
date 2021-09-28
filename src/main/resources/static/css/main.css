@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Long+Cang&family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@900&family=Noto+Sans+TC:wght@700&family=Noto+Serif+SC:wght@900&family=Noto+Serif+TC:wght@900&family=ZCOOL+KuaiLe&family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&family=Zhi+Mang+Xing&display=swap');
+
+.card.small.darkblue {
+    background-color: #0f98e0;
+    color: whitesmoke !important;
+    transition: background-color 0.5s;
+}
+
+.card.small.lightblue {
+    background: #35bce6;
+    color: whitesmoke !important;
+}
+
+.card.small.orange {
+    background: #ff742e;
+    color: whitesmoke !important;
+}
+
+.card.small.yellow {
+    background: #fccf4b;
+    color: white !important;
+}
+
+.card.small.blue {
+    background: #00d0ff;
+    color: whitesmoke !important;
+}
+
+.card.small.pink {
+    background: #ff6e6e;
+    color: whitesmoke !important;
+}
+
+.card.small p.wiktionary a {
+    color: whitesmoke !important;
+    
+}
+
+.card.small a {
+    color: whitesmoke !important;
+    
+}
+
+.card.small a:visited {
+    color: whitesmoke !important;
+}
+
+.card.small a:hover {
+    text-decoration: none;
+}
+
+.card.small.darkblue:hover {
+    animation: darkblue 5s infinite;
+}
+
+@keyframes darkblue {
+  0% {
+    background-color: #0f98e0;
+  }
+  50% {
+    background-color: #AD310B;
+  }
+  100% {
+    background-color: #0f98e0;
+  }
+}
+
+.card.small.lightblue:hover {
+    animation: lightblue 5s infinite;
+}
+
+@keyframes lightblue {
+  0% {
+    background-color: #35bce6;
+  }
+  50% {
+    background-color: #AD310B;
+  }
+  100% {
+    background-color: #35bce6;
+  }
+}
+
+.card.small.orange:hover {
+    animation: orange 5s infinite;
+}
+
+@keyframes orange {
+  0% {
+    background-color: #ff742e;
+  }
+  50% {
+    background-color: #AD310B;
+  }
+  100% {
+    background-color: #ff742e;
+  }
+}
+
+.card.small.yellow:hover {
+    animation: yellow 5s infinite;
+}
+
+@keyframes yellow {
+  0% {
+    background-color: #fccf4b;
+  }
+  50% {
+    background-color: #AD310B;
+  }
+  100% {
+    background-color: #fccf4b;
+  }
+}
+
+.card.small.blue:hover {
+    animation: blue 5s infinite;
+}
+
+@keyframes blue {
+  0% {
+    background-color: #00d0ff;
+  }
+  50% {
+    background-color: #AD310B;
+  }
+  100% {
+    background-color: #00d0ff;
+  }
+}
+
+.card.small.pink:hover {
+    animation: pink 5s infinite;
+}
+
+@keyframes pink {
+  0% {
+    background-color: #ff6e6e;
+  }
+  50% {
+    background-color: #AD310B;
+  }
+  100% {
+    background-color: #ff6e6e;
+  }
+}
+
+p.wiktionary:before {
+  content : "";
+  position: absolute;
+  width   : 20%;  /* or 100px */
+  bottom: 2.2em;
+  border-bottom:1px solid whitesmoke;
+ 
+}
+
+.pinyin {
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+.simplified {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 1.8em;
+}
+
+.traditional {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.6em;
+}
+
+.translations {
+    color: whitesmoke;
+    font-size: 2em;
+}
+
+.card.small h1 {
+   text-align: center; 
+   vertical-align: middle;
+   border-bottom: .2em solid whitesmoke;
+   padding-bottom: .3em;
+}
+
+.card.singleview {
+    margin: auto;
+}
+
+
+
+.card.singleview h1 {
+    text-align: center; 
+    vertical-align: middle;
+    margin: 0em
+ }
+
+ .card.singleview h1 .simplified {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 3em;
+}
+
+.card.singleview h1 .traditional {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 2.7em;
+}
+
+.card.singleview .pinyin {
+    text-align: center; 
+}
+
+.card.singleview p {
+    color: black;
+}
+
+.simplified#LiuJianMaoCao {
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+
+.simplified#LongCang {
+    font-family: 'Long Cang', cursive;
+}
+
+.simplified#MaShanZheng {
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+.simplified#NotoSansSC {
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+.simplified#NotoSerifSC {
+    font-family: 'Noto Serif SC', serif;
+}
+
+.simplified#KuaiLe {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.simplified#QingKeHuangYou {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.simplified#XiaoWei {
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.simplified#ZhiMangXing {
+    font-family: 'Zhi Mang Xing', cursive;
+}
+
+.traditional#NotoSansTC {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.traditional#NotoSerifTC {
+    font-family: 'Noto Serif TC', serif;
+}
+
+span.delete {
+    border: 1px solid;
+    padding: 0em .3em 0em .3em;
+    text-align: center;
+    vertical-align: middle;
+}
+
+span.delete:hover {
+    background-color: rgb(223, 76, 76);
+    cursor: pointer;
+}
+
+a.update {
+    border: 1px solid;
+    padding: 0em .3em 0em .3em;
+    text-align: center;
+    vertical-align: middle;
+}
